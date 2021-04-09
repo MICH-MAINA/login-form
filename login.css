@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 form{
     border: 3px solid #f1f1f1;
 	border-radius: 20px;
@@ -29,9 +30,18 @@ input[type=text], input[type=password] {
     border: 2px solid #e08d1f;
     box-sizing: border-box;
 	border-radius: 20px;
+	
     
   }
-
+/*focus in the inputs*/
+input[type=text], input[type=password]:focus{
+	background-color: #fff;
+    outline: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text], input[type=password]:active{
+	background-color: #fff;
+}
   
 /* Set a style for all buttons */
 button {
@@ -44,7 +54,9 @@ button {
     width: 100%;
 	border-radius: 20px;
   }
-
+button:focus{
+	outline: none;
+}
 /* Add a hover effect for buttons */
 button:hover {
     opacity: 0.9;
