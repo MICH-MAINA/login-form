@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+form{
+    border: 3px solid #f1f1f1;
+	border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 30%;
+    
+    width: 40%;
+
+}
+
+.container .title{
+	text-align: center;
+	font-weight: 500;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 2px solid #e08d1f;
+    box-sizing: border-box;
+	border-radius: 20px;
+    
+  }
+
+  
+/* Set a style for all buttons */
+button {
+    background-color: #e08d1f;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius: 20px;
+  }
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.9;
+    transition: all 0.1s;
+    font-size: 15px;
+  }
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+  }
+
+  /* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 8px 18px;
+    background-color:#e08d1f;
+  }
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+ 
+  @media screen and (max-width: 844px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+  }
+
+  
+/*HOMEPAGE STYLES*/
+/*navbar begins*/
+
+.navtop {
+  background-color: #e08d1f;
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.navtop div h1, .navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navtop div h1{
+  flex: 2;
+  font-size: 24px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  color: #fff;
+}
+.navtop div a {
+  padding: 0 30px;
+  text-decoration: none;
+  color: #fff;
+ 
+}
+.navtop div a i {
+  padding: 2px 8px 0 0;
+  
+}
+
+.navtop div a:hover{
+  color: #eaebed;
+}
+
+body.loggedin{
+  background-color: #f3f4f7;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 25px;
+  font-size: 22px;
+  border-bottom: 1px solid #e0e0e3 ;
+  color: #AB750B;
+}
+
+.content >p , .content >div{
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 25px;
+  background-color: #fff;
+}
+.content >p table td, .content > div table td {
+  padding: 5px;
+}
+
+.content >p table td:first-child, .content > div table td:first-child{
+  font-weight: bold;
+  color: #AB750B;
+  padding-right: 15px;
+}
+
+.content >div p{
+  padding: 5px;
+  margin: 0 0 10px 0;
+}

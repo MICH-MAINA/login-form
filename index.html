@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login </title>
+    <style>
+        body{
+            background-image: #F6F7FF;
+        }
+    </style>
+</head>
+<body>
+<!-- the action attribute will be set to the authentication file the method post will allow processing
+of the form data-->
+<form action="authenticate.php" method="post">
+      
+      <div class="container">
+        <h1 class="title"> Login</h1>
+        <input type="text" placeholder="Enter Username" name="username" required="">
+    
+        <input type="password" placeholder="Enter Password" name="password" required="">
+        
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>      
+      <div class="container" style="background-color:#ffffff">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Don't have an account? <a href="#">Register here</a></span>
+      </div>
+    </form>
+</body>
+</html>
