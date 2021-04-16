@@ -42,7 +42,7 @@ $stmt->close();
 </head>
 <body class="loggedin">
     <nav class="navtop">
-        <div>
+        <div class="controls">
             <h1>Website Title</h1>
             <a href="profile.php"><i class="fas fa-user-circle">Profile</i></a>
             <a href="logout.php"><i class="fas fa-sign-out-alt">Logout</i></a>
